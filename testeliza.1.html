@@ -106,9 +106,9 @@ var qaList = [
 
     }
     
-    function getAnswer() {
+     function getAnswer() {
       //var say = document.getElementById("say").value; // 取得使用者輸入的問句。
-	  //document.getElementById("say").value = "";
+   //document.getElementById("say").value = "";
       for (var i in qaList) { // 對於每一個 QA 
        try {
         var qa = qaList[i];
@@ -129,7 +129,7 @@ var qaList = [
        } catch (err) {}
       }
       return "然後呢？"; // 如果發生任何錯誤，就回答「然後呢？」來混過去。
-    }   
+    }
   </script>
 </body>
 </html>
